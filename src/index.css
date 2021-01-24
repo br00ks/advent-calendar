@@ -1,0 +1,116 @@
+html {
+  /* change url to favourite background image */
+  background: url('./assets/background1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: transparent !important;
+  margin: 0;
+  font-family: Mountains of Christmas;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.calendarPage {
+  min-height: 100vh;
+}
+
+.circle {
+  height: 120px;
+  width: 120px;
+  background: url("./assets/snowflake.png") no-repeat center center;
+  background-size: contain;
+  opacity: 0.85;
+}
+
+.number {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+
+.fontStyle {
+  font-family: monospace;
+}
+
+.modalContent {
+  font-size: 20px;
+}
+
+.modalContent h2 {
+  text-align: center;
+}
+
+.modalImage {
+  max-height: 100vh;
+  max-width: 100vh;
+}
+
+.number:hover {
+  cursor: pointer;
+}
+
+.modalText h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.quoteBox {
+  text-align: justify;
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+h1 {
+  font-family: Mountains of Christmas;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: Mountains of Christmas;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p {
+  color: white;
+  font-family: Mountains of Christmas;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+blockquote {
+  font-family: Mountains of Christmas;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: Mountains of Christmas;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5667px;
+}

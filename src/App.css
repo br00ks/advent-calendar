@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.grid-row {
+  height: 100%;
+}
+
+.grid-item {
+  text-align: center;
+  background-color: #fff9;
+  float: left;
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  text-align: center;
+}
